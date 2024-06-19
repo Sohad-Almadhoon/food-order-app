@@ -1,0 +1,32 @@
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+.model {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  width: 35%;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 30px;
+  animation: cart-appear 500ms ease-out forwards;
+}
+.content{
+  z-index: 50;
+}
+@keyframes cart-appear {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,51 @@
+.card {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #8a2b06;
+}
+h3 {
+  font-size: 1.5rem;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;  
+}
+.price {
+  color: #8a2b06;
+  font-weight: bold;
+}
+.amount {
+  font-weight: bold;
+  border: 1px solid#ddd;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: right;
+}
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+}
+.buttons button {
+  outline: none;
+  border: #8a2b06 1px solid;
+  padding: 2px 15px;
+  color: #8a2b06;
+  font-weight: 600;
+  background: transparent;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  transition: 1s all;
+}
+
+.buttons button:hover{
+    background: #8a2b06;
+    color: white;
+    cursor: pointer;
+}
